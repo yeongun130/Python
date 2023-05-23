@@ -26,4 +26,4 @@ for i, (x, y) in enumerate(zip(x, y)):
     ax.plot(x_lim, y_lim, color=cmap(i), alpha=0.3)
 
 fig.tight_layout()
-plt.show()
+plt.show() 
