@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 
 n_samples = 1000
 n_test_sample = 10
-X = np.random.normal(0, 1, (n_samples, 2))
+X = np.random.normal(loc=[2, -1], scale=1,
+                     size=(n_samples, 2))
 test_X = np.random.normal(0, 1, (n_test_sample, 2))
 print(X)
 print(X[:, 0])  # 첫번째 column
